@@ -22,7 +22,7 @@ database.on('error', (error) => {
 database.once('connected', () => {
     console.log('Database Connected');
 })
-
+console.log('TESTE')
 app.listen(3002, () => {
     console.log(`Server Started at ${3002}`)
 })
